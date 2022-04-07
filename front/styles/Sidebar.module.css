@@ -1,0 +1,10 @@
+.active{
+    border-bottom: 2px solid ;
+    color: blue;
+}
+.sidebar{
+    width: 200px;
+    font-weight: 500;
+    background-color: #fff;
+    margin-top: 2rem;
+}
