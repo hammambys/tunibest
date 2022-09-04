@@ -10,7 +10,7 @@ export default function Layout({ children }) {
       <Head></Head>
 
       <Navbar />
-      <main className="bg-black text-white">
+      <main className="">
         <div className="flex">
           <Sidebar />
           {children}

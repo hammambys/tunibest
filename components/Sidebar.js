@@ -7,8 +7,8 @@ export default function Sidebar() {
   const router = useRouter();
 
   return (
-    <div className={styles.sidebar}>
-      <ul className="navbar-nav">
+    <div className="bg-white">
+      <ul className="text-black navbar-nav">
         <li className={router.pathname == "/" ? styles.active + "" : ""}>
           {" "}
           <div className="p-2 element">
@@ -17,10 +17,10 @@ export default function Sidebar() {
             </Link>{" "}
           </div>
         </li>
-        <li className={router.pathname == "/series" ? styles.active : ""}>
+        <li className={router.pathname == "/createserie" ? styles.active : ""}>
           {" "}
-          <div className="p-2 element">
-            <Link href="/series">All series </Link>
+          <div className="">
+            <Link href="/createserie">Create Serie</Link>
           </div>
         </li>
       </ul>
